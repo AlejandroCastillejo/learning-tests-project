@@ -1,0 +1,11 @@
+.true-false-question {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin: 15px 0;
+
+  .choices {
+    display: flex;
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "struc3": {
+    "test_type": "trueFalse",
+    "test_info": {
+      "course": "Tecnología",
+      "test_name": "Estructuras III",
+      "guideline": "Señala si son verdadedras o falsas las siguientes frases:"
+    },
+    "questions": {
+      "q1": "El esfuerzo cortante solo aparece cuando cortamos algo.",
+      "q2": "La tracción es un esfuerzo que tiende a estirar un objeto",
+      "q3": "El esqueleto humano está sometido básicamente al esfuerzo de compresión",
+      "q4": "Un vaso de plástico no tiene ningún tipo de estructura"
+    },
+    "answers": {
+      "q1": true,
+      "q2": true,
+      "q3": false,
+      "q4": false
+    }
+  }
+}

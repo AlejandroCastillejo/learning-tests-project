@@ -1,0 +1,14 @@
+@import "@/../../../../styles/media-breakpoints.scss";
+
+.test-result {
+  .questions {
+    margin: 20px;
+
+    @include screen-sm {
+      margin: 5px;
+    }
+  }
+  .button-container {
+    margin: 40px;
+  }
+}

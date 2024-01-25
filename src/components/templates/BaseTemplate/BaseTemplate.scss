@@ -1,0 +1,26 @@
+@import "@/../../../../styles/media-breakpoints.scss";
+
+.base-template {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+  padding: 40px 60px;
+  height: calc(100vh - 100px);
+  overflow-y: scroll;
+
+  @include screen-sm {
+    padding: 20px 20px;
+    height: calc(100vh - 60px);
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .body {
+    display: flex;
+    flex-direction: column;
+  }
+}
