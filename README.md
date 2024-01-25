@@ -1,8 +1,18 @@
-# React + Vite
+# Learning Tests
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project consists of a simple web app which allows user to do online tests and see the tests result.
 
-Currently, two official plugins are available:
+## Running the app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+After clonning the repository you must install the dependencies.  
+First, make sure you have npm intalled in your machine, then execute:
+
+```
+    npm install
+```
+
+For running the app in dev mode execute:
+
+```
+    npm run dev
+```
